@@ -13,7 +13,7 @@ public class ApiPostTest {
         given()
                 .baseUri("https://postman-echo.com")
                 .contentType("text/plain; charset=UTF-8")
-                .body("username: мария иванова") // отправляемые данные (заголовки и query можно выставлять аналогично)
+                .body("password: булочка") // отправляемые данные (заголовки и query можно выставлять аналогично)
 // Выполняемые действия
                 .when()
                 .post("/post")
